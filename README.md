@@ -10,11 +10,3 @@ Quantum entanglement plays a crucial role in the teleportation of quantum states
 
 # Implementing Quantum Teleportation with Qiskit-
 To translate theoretical knowledge into practical computing, this project uses Qiskit. Qiskit provides a comprehensive set of tools for working with quantum circuits, simulating quantum algorithms, and running them on actual quantum hardware.
-
-# Steps Involved-
-Initialization: Set up the quantum and classical registers.
-Entanglement Creation: Entangle two qubits using a Hadamard gate and a CNOT gate.
-State Preparation: Prepare the quantum state to be teleported.
-Bell Measurement: Perform a Bell state measurement on the entangled qubits.
-Classical Communication: Use classical bits to transmit the measurement results.
-State Reconstruction: Apply conditional quantum gates based on the received classical bits to reconstruct the original state.
